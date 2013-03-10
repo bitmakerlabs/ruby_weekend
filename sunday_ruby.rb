@@ -38,9 +38,9 @@ def kaprekar?(k)
   end
   
   if (left_half + right_half) == k
-    puts true
+    return true
   else
-    puts false
+    return false
   end
 end
 
